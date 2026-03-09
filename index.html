@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brother Alvey's Portal Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+ 
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="images/logo.png" width="200" alt="Site Logo">
+            <h1>Brother Alvey Portal Page</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wwr/">WWR</a></li>
+                <li><a href="ice/">ICE</a></li>
+                <li><a href="#">Project</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section><a href="wwr/"><img src="images/wwr.jpg" alt="Rafting Programmers"></a></section>
+            <section><a href="ice/"><img src="images/ice.jpg" alt="Hiking Programmers"></a></section>
+            <section><a href="#"><img src="images/project.jpg" alt="Programming Programmers"></a></section>
+            <section>
+                <img src="images/pioneers.jpg" alt="Cool dudes">
+                <table class="redTable" border="1">
+                    <thead>
+                        <tr>
+                            <th>Pioneer</th>
+                            <th>Invention</th>
+                            <th>Fun Fact</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Tim Berners-Lee</td>
+                        <td>WWW, HTML, HTTP, URL</td>
+                        <td>Knighted by the queen</td>
+                    </tr>
+                    <tr>
+                        <td>Vint Cerf</td>
+                        <td>Internet, TCP/IP</td>
+                        <td>Wore a 3 peice suit, always</td>
+                    </tr>
+                    <tr>
+                        <td>Bob Kahn</td>
+                        <td>Internet, TCP/IP</td>
+                        <td>Boring</td>
+                    </tr>
+                    <tr>
+                        <td>Marc Andreessen</td>
+                        <td>Browser</td>
+                        <td>His head is shapped like an egg</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <div id="contact">
+                <h2>Contact Me</h2>
+                <form action="#" method="get">
+                    <!-- Name -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <!-- Email -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <!-- Message -->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="20" required></textarea>
+
+                    <!-- Newsletter Checkbox -->
+                    <div class="stretch">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                        <label for="newsletter">Subscribe to our newsletter</label>
+                    </div>
+                    <!-- Submit Button -->
+                    <input type="submit">
+                </form>
+            </div>
+            <p>&copy; Alvey</p>
+        </footer>
+    </div>
+</body>
+
+</html>
